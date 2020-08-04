@@ -26,10 +26,6 @@ Click==7.0
 cloudpickle==1.2.2
 colorama==0.4.1
 comtypes==1.1.7
-conda==4.8.2
-conda-build==3.18.9
-conda-package-handling==1.6.0
-conda-verify==3.4.2
 contextlib2==0.6.0
 cryptography==2.7
 cycler==0.10.0
@@ -90,6 +86,7 @@ MarkupSafe==1.1.1
 marshmallow==3.7.1
 matplotlib==3.1.1
 mccabe==0.6.1
+menuinst==1.4.16
 mistune==0.8.4
 mkl-fft==1.0.14
 mkl-random==1.1.0
