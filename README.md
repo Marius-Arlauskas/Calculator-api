@@ -11,25 +11,25 @@ Accepted operands:
 ## Examples
 
 -->POST / set 6  
-<---OK  
+<--OK  
 -->POST / set 2  
-<---OK  
+<--OK  
 -->POST / set +  
-<---OK  
+<--OK  
 -->GET / get  
-<---8.0  
+<--8.0  
 
 -->POST / set 6 + 12  
-<---OK  
+<--OK  
 -->GET / get  
-<---18.0  
+<--18.0  
 
 -->POST / set 6 + 12 88  
-<---OK  
+<--OK  
 -->GET / get  
-<--- Incorrect amount of NUMBER arguments, reenter your values from the start.  
+<-- Incorrect amount of NUMBER arguments, reenter your values from the start.  
 
 -->POST / set 6 12  
-<---OK  
+<--OK  
 -->GET / get  
-<--- Incorrect amount of OPERAND arguments, reenter your values from the start.  
+<-- Incorrect amount of OPERAND arguments, reenter your values from the start.  
