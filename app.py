@@ -28,7 +28,7 @@ class Calculator(Resource):
                     pickle.dump('', fp)
             return result
         else:
-            return 'You Did Not POST Anything or Your Session Expired.'
+            return 'Please input two NUMBER argumetns and one OPERAND argument.'
 
     def post(self):
         if "user" in session:
