@@ -6,7 +6,8 @@ Post at least two numbers and an operand,
 it can be posted in seperate posts, or in one post.
 If there is an incorrect number of arguments, and request GET is made,it will clear the input, and will state which argument was invalid.
 Accepted operands:  
-'+ - / *'
+'+ - / *'  
+There is also 5 minute timer for expiration of current input.
 
 ## Examples
 
