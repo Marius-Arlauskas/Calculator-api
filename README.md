@@ -10,13 +10,13 @@ Accepted operands:
 
 ## Examples
 
--->POST / set 6 \n
+-->POST / set 6 
 <---OK
--->POST / set 2 \n
+-->POST / set 2 
 <---OK
--->POST / set * \n
+-->POST / set * 
 <---OK
--->GET / get \n
+-->GET / get 
 <---12.0
 
 -->POST / set 6 + 12
