@@ -1,3 +1,4 @@
+# Finds all numbers and operands in text, if there are two numbers and one operand outputs a answer.
 def calculate(info):
     import re
     numbers = re.findall("\d+(?:\.\d+)?", info)
