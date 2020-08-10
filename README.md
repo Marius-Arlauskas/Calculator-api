@@ -19,17 +19,17 @@ Accepted operands:
 -->GET / get  
 <---8.0  
 
--->POST / set 6 + 12
-<---OK
--->GET / get
-<---18.0
+-->POST / set 6 + 12  
+<---OK  
+-->GET / get  
+<---18.0  
 
--->POST / set 6 + 12 88
-<---OK
--->GET / get
-<--- Incorrect amount of NUMBER arguments, reenter your values from the start.
+-->POST / set 6 + 12 88  
+<---OK  
+-->GET / get  
+<--- Incorrect amount of NUMBER arguments, reenter your values from the start.  
 
--->POST / set 6 12 
-<---OK
--->GET / get
-<--- Incorrect amount of OPERAND arguments, reenter your values from the start.
+-->POST / set 6 12  
+<---OK  
+-->GET / get  
+<--- Incorrect amount of OPERAND arguments, reenter your values from the start.  
